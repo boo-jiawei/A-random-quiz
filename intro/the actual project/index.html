@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            padding: 40px;
+            min-width: 300px;
+            border-radius: 15px;
+        }
+
+        .main h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #question {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        #options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        button{
+            width: 300px;
+            height: 50px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #e6e6e6;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Quiz</h2>
+        <div id="question">Question</div>
+        <div id="options">Options</div>
+    </div>
+    <script src="AAAH.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      textarea {
+        background-color: #67d7cc;
+      }
+      .main-container {
+        max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      .notes-list {
+        display: grid;
+        flex-direction: row;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      .note-input {
+        background-color: #67d7cc;
+        border-radius: 15px;
+        padding: 1rem;
+        min-height: 170px;
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .note-child {
+        background-color: #fef68a;
+        border-radius: 15px;
+        padding: 1rem;
+        min-height: 170px;
+        max-width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="notes-list" id="notes-list">
+        <div class="note-input">
+          <textarea
+            id="note-input"
+            placeholder="Enter your note"
+            cols="60"
+            rows="5"
+          ></textarea>
+          <button id="save-btn" onclick="saveNote()">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="HELP.JS"></script>
+  </body>
+</html>

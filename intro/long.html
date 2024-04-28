@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            box-sizing: border-box
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .header{
+            padding: 60px;
+            text-align: center;
+            background-color: aqua;
+            color: red;
+        }
+
+        .navbar{
+            display:flex;
+            background-color: grey;
+
+        }
+
+        .navbar a{
+            color: brown;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: black;
+            color: yellow;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .side{
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .main{
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .fakeImg{
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer{
+            padding: 20px;
+            text-align: center;
+            background-color: #ddd;
+            width: 100%;
+        }
+
+        @media screen and (max-width:700px) {
+            .row
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+<div class="header">
+    <h1> my Website</h1>
+    <p>This is a template for a responsive website.</p>    
+</div>
+
+<div class="navbar">
+    <a href="#">link 1</a>
+    <a href="#">link 2</a>
+    <a href="#">link 3</a>
+    <a href="#">link 4</a>
+</div>
+
+<div class="row">
+ <div class="side">
+    <h2>about me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeImg" style="height: 200px">Image</div>
+    <p>Some more text about me</p>
+    <h3>More text</h3>
+    <p>EVEN MORE</p>
+    <div class="fakeImg" style="height: 60px">Image</div>
+    <div class="fakeImg" style="height: 60px">Image</div>
+    <div class="fakeImg" style="height: 60px">Image</div>
+ </div>
+
+
+<div class="main">
+    <h2>Title</h2>
+    <h5>Title description , march 3,2024</h5>
+    <div class="fakeImg" style="height: 200px">Image</div>
+    <p>Some text..</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat in blandit
+        iis asperiores laborum consectetur est minus aut libero, soluta rem recusandae 
+        sequi reprehenderit vel quam ab quos, illum optio ipsum!Lorem Lorem ipsum dolor sit amet consectetur adipisicin
+        g elit. Nulla rerum accusantium enim repellendus! Eius amet fuga eligendi temporibus praesentium, assumend
+        a vel nostrum, veritatis architecto aliquam obcaecati perferendis, nesciunt consectetur repudiandae.
+    </p>
+
+    <h2>Title</h2>
+    <h5>Title description , march 3,2024</h5>
+    <div class="fakeImg" style="height: 200px">Image</div>
+    <p>Some text..</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat in blandit
+        iis asperiores laborum consectetur est minus aut libero, soluta rem recusandae 
+        sequi reprehenderit vel quam ab quos, illum optio ipsum!Lorem Lorem ipsum dolor sit amet consectetur adipisicin
+        g elit. Nulla rerum accusantium enim repellendus! Eius amet fuga eligendi temporibus praesentium, assumend
+        a vel nostrum, veritatis architecto aliquam obcaecati perferendis, nesciunt consectetur repudiandae.
+    </p>
+</div>
+
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+
+</body>
+</html>

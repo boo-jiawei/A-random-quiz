@@ -1,0 +1,25 @@
+<!-- a href = link  -->
+<!-- src = pic -->
+<!--
+width and height = width and height
+alt=if no image show text
+style = different styles
+lang = languagae
+title= hovering text
+rel= file type
+stylesheet to connect a css file with rel
+-->
+<!-- 
+top -> right -> bottom -> left (for padding)
+top and bottom, left and right (if only 2 values in padding)
+top -> left and right -> bottom (if 3 values in padding)
+margin and padding are the same except margin is on the outside-->
+<!--
+class is a group of elements together(remember to add a . infront if u want to use class )
+id is like class but only can have 1 element(remember to add a # infront if u want to use id)
+div is a container for class and id
+-->
+<!-- Selectors -->
+<!-- .= class # = id *= universal and u can just use the element or multiple elements as well -->
+<!-- RGB -->
+<!-- rgb then numbers -->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            .note-wrapper {
+                background-color: #fef68a;
+                border-radius: 15px;
+                padding: 1rem;
+                min-height: 170px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                white-space: pre-wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="note-wrapper">
+        <input type="text" id="note-input" placeholder="Enter your note" />
+        <button id="save-btn">Save</button>
+    </div>
+
+    <div id="notescontainer"></div>
+
+    <script src="project.js"></script>
+</body>
+
+</html>
