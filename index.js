@@ -18,14 +18,24 @@ const data = [
         answer: "false",
     },
     {
-        question: "how long do you think I took to make 1 question?",
-        options: ["60mins", "2mins", "30mins", "10mins"],
-        answer: "10mins",
+        question: "Y/YX20/4=?",
+        options: ["4", "1", "0", "5"],
+        answer: "5"
     },
     {
-        question: "how many questons have u answered so far?(not including this one)",
+        question: "it takes 5 mins for a microwave to finish microwaving a meal.How long hould it take a microwave to make 4 meals?",
+        options: ["5mins", "20mins", "10mins"],
+        answer: "20mins",
+    },
+    {
+        question: "Ali drove 20km at 400m per minute.How long did it take for Ali to reach his destination",
+        options: ["50mins", "40mins", "60mins", "55mins"],
+        answer: "50mins",
+    },
+    {
+        question: "how many questons have u answered so far?(including this one)",
         options: ["3", "4", "5", "7"],
-        answer: "4",
+        answer: "7",
     },
 ];
 
@@ -48,6 +58,7 @@ const displayQuestion = () => {
 };
 const restartQuiz = () => {
     currentQuestionIndex = 0
+    score = 0
     displayQuestion();
 };
 
