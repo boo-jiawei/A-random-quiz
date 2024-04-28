@@ -3,9 +3,9 @@ const optionsContainer = document.getElementById("options")
 
 const data = [
     {
-        question: "What is the captial of France?",
-        options: ["Paris", "London", "Rome", "Berlin"],
-        answer: "Paris"
+        question: "What is 2+2+21-24",
+        options: ["1", "20", "2", "42"],
+        answer: "1"
     },
     {
         question: "what is 4/2+24x10?",
@@ -15,7 +15,7 @@ const data = [
     {
         question: "Y/4X21+4=46 Y=16",
         options: ["true", "false"],
-        answer: "false%",
+        answer: "false",
     },
     {
         question: "how long do you think I took to make 1 question?",
