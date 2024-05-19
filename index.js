@@ -37,6 +37,7 @@ const data = [
         options: ["3", "4", "5", "7"],
         answer: "7",
     },
+    
 ];
 
 let currentQuestionIndex = 0;
